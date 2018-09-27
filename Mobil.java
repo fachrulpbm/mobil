@@ -17,11 +17,16 @@ public class Mobil{
 		return merk;
 	}
 
-	// void addBensin(){
+	int showBensin(){
+		return bensin;
+	}
 
-	// }
+	void addBensin(int n){
+		bensin = bensin + n;
+	}
 
-	// int showBensin(){
-		
-	// }
+	void setMerk(String nama){
+		merk = nama;
+	}
+
 }
